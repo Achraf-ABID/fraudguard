@@ -1,0 +1,55 @@
+# --- Secrets et configuration locale ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Données (jamais dans Git : elles sont sur S3) ---
+data/
+*.csv
+*.parquet
+*.avro
+*.json.gz
+*.zip
+
+# --- Modèles et artefacts ML ---
+models/
+mlruns/
+mlartifacts/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.h5
+*.pt
+*.pth
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# --- Node (site web) ---
+node_modules/
+dist/
+build/
+
+# --- Spark / Airflow locaux ---
+spark-warehouse/
+metastore_db/
+derby.log
+logs/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
