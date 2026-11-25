@@ -1,43 +1,4 @@
 # CODEOWNERS — FraudGuard
 # La dernière règle qui correspond l'emporte.
-# TODO : remplacer les @TODO_* par les vrais identifiants GitHub dès réception.
-#   M1 Elyes  -> @TODO_ELYES
-#   M3 Manel  -> @TODO_MANEL
-#   M4 Marwa  -> @TODO_MARWA
-#   M5 Karim  -> @TODO_KARIM
-
-# Par défaut : M2 (plateforme)
-*                               @Achraf-ABID
-
-# M1 · Elyes — ingestion, streaming, base clients
-/ingestion/                     @TODO_ELYES
-/streaming/                     @TODO_ELYES
-/oltp/                          @TODO_ELYES
-
-# M2 · Achraf — API, sécurité, plateforme
-/api/                           @Achraf-ABID
-/deploy/                        @Achraf-ABID
-/.github/                       @Achraf-ABID
-/docs/api.md                    @Achraf-ABID
-/docs/redis_keys.md             @Achraf-ABID
-
-# M3 · Manel — Data Lake et batch
-/batch/                         @TODO_MANEL
-/dags/                          @TODO_MANEL
-/quality/                       @TODO_MANEL
-/docs/datalake.md               @TODO_MANEL
-
-# M4 · Marwa — site web et analytique
-/app/                           @TODO_MARWA
-/alerts/                        @TODO_MARWA
-/dashboards/                    @TODO_MARWA
-
-# M5 · Karim — data science
-/ml/                            @TODO_KARIM
-/features/                      @TODO_KARIM
-/docs/features.md               @TODO_KARIM
-
-# Contrats : toute modification concerne toute l'équipe
-/contracts/                     @Achraf-ABID @TODO_ELYES @TODO_MANEL @TODO_MARWA @TODO_KARIM
-/contracts/transaction.avsc     @TODO_ELYES @Achraf-ABID @TODO_MANEL
-/contracts/alert.schema.json    @TODO_MARWA @Achraf-ABID @TODO_KARIM
+# M1 Elyes @elyasbenachour · M2 Achraf @Achraf-ABID · M3 Manel @manelbenhamma
+# M4 Marwa @marouaamiri · M5 Karim @karimlaissaoui
